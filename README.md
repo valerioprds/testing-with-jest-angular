@@ -61,7 +61,11 @@ import "jest-preset-angular/setup-jest";
 #### 6. añadir scripts en package.json
 ejemplos:
 
+```code
 "test": "jest",
     "test:service": "npx jest src/app/services/player.service.spec.ts",
     "test:player-details": "npx jest src/app/components/player-details/player-details.component.spec.ts",
     "test:home": "npx jest src/app/components/home/home.component.spec.ts"
+```
+
+
